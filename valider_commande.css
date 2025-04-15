@@ -1,0 +1,42 @@
+/* valider_commande.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.confirmation-container {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #f8b400;
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.return-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f8b400;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.return-button:hover {
+    background-color: #e09e00;
+}
